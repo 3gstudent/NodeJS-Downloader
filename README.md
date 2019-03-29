@@ -25,7 +25,7 @@ eg.
 node.exe Server.js
 ```
 
-When you use a browser to access it, you will return 404.
+When you use a browser to access it, it will return 404.
 
 4. Start the client
 
