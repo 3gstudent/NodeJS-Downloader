@@ -46,7 +46,6 @@ function sendhello(host1,port1,timeinterval){
     		console.log(err.message);
 		sleep(timeinterval);
 		sendhello(serverip,serverport,timeinterval);
-
 	});
 
 	req.write(contents);
@@ -101,8 +100,7 @@ function sendcmd(command,host1,port1,timeinterval) {
 		req.end;
 
 		req.on("error",function(err) {
-    			console.log(err.message);
-			
+    			console.log(err.message);	
 		});
 
 		sleep(timeinterval);
@@ -116,6 +114,3 @@ var serverport = '80';
 var timeinterval = +'5000';
 
 sendhello(serverip,serverport,timeinterval);
-
-
-
