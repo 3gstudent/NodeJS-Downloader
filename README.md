@@ -37,7 +37,7 @@ It will connect to the server and get the command, then execute the command and 
 
 Client.js can be loaded by a program with a digital signature of Adobe Systems Incorporated.
 
-![Alt text](https://raw.githubusercontent.com/3gstudent/NodeJS-Downloader/blob/master/1.png)
+![Alt text](https://github.com/3gstudent/NodeJS-Downloader/blob/master/1.png?raw=true)
 
 Reference:
 
