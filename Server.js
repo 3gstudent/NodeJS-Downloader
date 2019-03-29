@@ -24,7 +24,6 @@ var http = require('http');
 var querystring = require('querystring');
 var i = +'0'; 
 
-
 http.createServer(function (req, res) {
 	console.log('-----------------------------------------------------');
 	i = i+1;
@@ -40,7 +39,7 @@ http.createServer(function (req, res) {
     	req.on('data', function (chunk) {
 		body += chunk;
     	});
- 
+
     	req.on('end', function () {
         	body = querystring.parse(body);  
 		if(body.os && body.hostname) { 
@@ -55,12 +54,10 @@ http.createServer(function (req, res) {
 			console.log(body['data']);
 			console.log('*****************************************************');			
 			res.write('ok');
-
 		} else {
      			console.log('[!]bad request');       		
 			res.write(postErrorHTML);     			
         	}
-
         	res.end();
     	});
 }).listen(80,'0.0.0.0');
