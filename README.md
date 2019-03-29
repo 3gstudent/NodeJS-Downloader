@@ -1,4 +1,4 @@
-# Nodejs-Downloader
+# NodeJS-Downloader
 An example of a downloader written in NodeJS.
 
 Author:3gstudent
