@@ -112,7 +112,7 @@ function sendcmd(command,host1,port1,timeinterval) {
 
 var dataglobal = '';
 var serverip = '127.0.0.1';
-var serverport = '3000';
+var serverport = '80';
 var timeinterval = +'5000';
 
 sendhello(serverip,serverport,timeinterval);
