@@ -23,7 +23,7 @@ Note:
 
 More ways to download & execution：
 
-[《渗透技巧——从github下载文件的多种方法》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E4%BB%8Egithub%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6%E7%9A%84%E5%A4%9A%E7%A7%8D%E6%96%B9%E6%B3%95/)
+[《渗透技巧——从github下载文件的多种方法》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E4%BB%8Egithub%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6%E7%9A%84%E5%A4%9A%E7%A7%8D%E6%96%B9%E6%B3%95)
 
 
 3. Start the server
@@ -53,4 +53,4 @@ https://bbs.pediy.com/thread-249573.htm
 
 More details:
 
-《渗透测试中的Node.js》[Coming soon]
+[《渗透测试中的Node.js——Downloader的实现》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84Node.js-Downloader%E7%9A%84%E5%AE%9E%E7%8E%B0)
